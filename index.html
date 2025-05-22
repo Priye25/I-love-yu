@@ -1,104 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaurya Ashram</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #2d3e50;
-            color: white;
-            padding: 1rem 2rem;
-            text-align: center;
-        }
-        nav {
-            background-color: #1b252f;
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            padding: 0.5rem;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 2rem;
-            text-shadow: 1px 1px 4px #000;
-        }
-        .content {
-            padding: 2rem;
-            max-width: 900px;
-            margin: auto;
-        }
-        .section {
-            margin-bottom: 2rem;
-        }
-        footer {
-            background-color: #2d3e50;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To My Love - Suman</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      color: #333;
+      overflow-x: hidden;
+    }
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4rem;
+      margin-top: 2rem;
+      color: #ff0066;
+      animation: fadeIn 2s ease-in-out;
+    }
+    p {
+      font-size: 1.5rem;
+      margin: 2rem auto;
+      max-width: 700px;
+      animation: fadeIn 3s ease-in-out;
+    }
+    .heart {
+      font-size: 3rem;
+      color: red;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.3);
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      background: #fff;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Shaurya Ashram</h1>
-        <p>Empowering Through Discipline and Service</p>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#mission">Mission</a>
-        <a href="#programs">Programs</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="hero">
-        Welcome to Shaurya Ashram
-    </div>
-    <div class="content">
-        <div class="section" id="about">
-            <h2>About Us</h2>
-            <p>Shaurya Ashram is a sanctuary of strength, self-discipline, and community service. We aim to instill courage and responsibility in our youth through holistic training and education.</p>
-        </div>
-        <div class="section" id="mission">
-            <h2>Our Mission</h2>
-            <p>To cultivate valor, ethics, and leadership in individuals, empowering them to contribute meaningfully to society.</p>
-        </div>
-        <div class="section" id="programs">
-            <h2>Programs</h2>
-            <ul>
-                <li>Physical Training & Martial Arts</li>
-                <li>Discipline & Character Building</li>
-                <li>Community Outreach</li>
-                <li>Workshops on Leadership & Ethics</li>
-            </ul>
-        </div>
-        <div class="section" id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: contact@shauryaashram.org<br>
-               Phone: +91 98765 43210<br>
-               Address: 123 Courage Lane, Honor City, India</p>
-        </div>
-    </div>
-    <footer>
-        &copy; 2025 Shaurya Ashram. All rights reserved.
-    </footer>
+
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h1>Dear Suman,</h1>
+  <p>
+    Every heartbeat of mine whispers your name. <br>
+    You are the light of my life, my happiness, and my reason to smile. <br>
+    I feel so lucky to have you in my world. ❤️
+  </p>
+  <div class="heart">💖</div>
+  <p>
+    I just want to say those three magical words...
+  </p>
+  <h1>I Love You ❤️</h1>
+  <p>Forever yours,<br>Priyesh</p>
+
+  <footer>
+    Made with ❤️ by Priyesh for Suman | © 2025
+  </footer>
+
 </body>
 </html>
